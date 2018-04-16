@@ -7,7 +7,7 @@ class PpcRequest
 {
     /**
      * @param $method method of request(POST, GET)
-     * $param $url target url
+     * @param $url target url
      * @param $methodName methodname of xml-rpc
      * @param $params
      * @return array
