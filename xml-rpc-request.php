@@ -10,9 +10,9 @@ class PpcRequest
      * @param $url target url
      * @param $methodName methodname of xml-rpc
      * @param $params
-     * @return array
+     * @return mixed
      */
-    public static function sendRequestAndGetResponse($method, $url, $methodName, $params): array
+    public static function sendRequestAndGetResponse($method, $url, $methodName, $params)
     {
         // create a new xml data
         $requestXmlData = new \SimpleXMLElement($params);
