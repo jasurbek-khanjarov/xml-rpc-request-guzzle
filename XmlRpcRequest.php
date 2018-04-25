@@ -3,7 +3,7 @@
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Client;
 
-class PpcRequest
+class XmlRpcRequest
 {
     /**
      * @param $method method of request(POST, GET)
